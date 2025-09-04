@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+h1 {
+    background-color: pink;
+    padding: 20;
+}
+em{
+     background-color: rgb(241, 179, 191);
+  color: #ee4b6aff; 
+  padding: 10px;     
+  font-style: normal; 
+  }
+h2 {
+    background-color: rgb(216, 159, 169); 
+   padding: 6px; 
+}
+
+
+.section {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#pika1 {
+  float: right;              
+  border: 4px solid red;     
+}
+#pika1:hover {
+  border-color:yellow;    
+}
+ul{
+    background-color: yellow;
+    border-color: darkblue;
+}
+#pika2 {
+  float: right;              
+  border: 4px solid red; 
+  width: 120px;   
+  height: auto;   
+}
+table {
+  border: 8px solid pink;                   
+}
+footer a:hover {
+  text-decoration-style: solid;     
+  text-decoration-color: blue; 
+}
+
