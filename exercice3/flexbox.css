@@ -1,0 +1,29 @@
+
+.flex-container {
+  display: flex;
+  background-color:rgb(215, 215, 222);
+}
+.flex-container > div {
+  background-color: rgb(215, 215, 222);
+  margin: 30px;
+  padding: 30px;
+  font-size: 50x;
+}
+.flex-item-right {
+  background-color: rgb(10, 10, 10);
+  padding: 30;
+  flex: 50%;
+}
+.flex-item-left {
+  background-color:rgb(68, 169, 212);
+  padding: 10px;
+  flex: 50%;
+}
+div.p{
+      background-color: #b10a0a;
+      padding: 10px;
+      border: 1px solid #ccc;
+}
+@media (max-width: 800px) {
+  .flex-container {flex-direction: column;
+  }
