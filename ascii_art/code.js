@@ -10,11 +10,11 @@ const timeout2 = 400; //EDIT
 const timeout3 = 400; //EDIT
   const primary = "&nbsp;"; // Initial char.
 // First 
-const center = ['@', '®', '©',]; //EDIT
-const tertiary = ['.', '*', '•', '°']; //EDIT
+const center = ['@', '®', '©','&']; //EDIT
+const tertiary = ['.', '*', '•', '°','&']; //EDIT
 const secondary = ['\\', '/', '|', '-', '_','&boxv;','&boxh;','&boxvl;','&boxvl;','&boxhd;','&boxhu;']; //EDIT
-const max = 2; // First circle around center.
-const max2 = 3; // 2nd circle around center.
+const max = 3; // First circle around center.
+const max2 = 4; // 2nd circle around center.
 
   const calculateGridSize = () => {
       // Create a test SPAN.
@@ -76,7 +76,7 @@ const animateItem = (item, char, delay, extraClass) => {
     // Launch a function with delay to make the end status of the cell.
   setTimeout(() => {
     item.innerHTML = primary; // Get back to the initial char. 
-    item.style.backgroundColor = `hsla(${currentHue%360}, 100%, 50%, .3)`; //EDIT
+    item.style.backgroundColor = `hsla(${currentHue%360}, 100%, 50%, .2)`; //EDIT
     item.classList.remove(extraClass);
   }, delay * 2);
 };
